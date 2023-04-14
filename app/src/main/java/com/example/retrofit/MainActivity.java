@@ -204,7 +204,6 @@ public class MainActivity extends AppCompatActivity {
         // Map is used to multipart the file using okhttp3.RequestBody
         File file = new File(mediaPath);
         File file1 = new File(mediaPath1);
-
         // Parsing any Media type file
         RequestBody requestBody1 = RequestBody.create(MediaType.parse("*/*"), file);
         RequestBody requestBody2 = RequestBody.create(MediaType.parse("*/*"), file1);
